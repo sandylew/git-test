@@ -1,0 +1,210 @@
+/* 
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+} */
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1, h2, h3, .card-body> .card-title {
+  font-family: "Lily-Script-One";
+}
+
+.card-title {
+  font-weight: 500;
+  padding: 10px;
+  font-size: 1.25rem;
+}
+
+/* .item-container {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3px;
+} */
+
+h2 {
+  color: #195640;
+}
+
+.card {
+ width: 300px;
+ align-items: auto;
+ border: 12px;
+ overflow:hidden;
+
+}
+
+.card-img {
+  font: 500 1rem "Lily-Script-One";
+  height: 300px;
+  width: 300px;
+  overflow: hidden;
+}
+
+.card-img-overlay .card-title {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  font: 400 1rem "Lily-Script-One";
+  height: 30px;
+  width: 270px;
+  margin-bottom: 1px;
+
+}
+  
+.row-content {
+  padding: 3px 0;
+  margin: 10px 0;
+  border: 4px ridge;
+  align-content: center;
+  width: 330px;
+  border-radius: 8px;
+}
+
+.contact-content {
+  padding: 15px 0;
+  margin: 10px 0;
+  border: 0px solid;
+  border-color: #195640;
+  width: 800px;
+  display: inline-block;
+  border-radius: 6px;
+}
+
+.mission-content {
+  padding: 15px 0;
+  margin: 10px 0;
+  border: 2px solid;
+  border-color: #195640;
+  width: 800px;
+  display: inline-block;
+  border-radius: 6px;
+}
+
+.search-bar {
+  background-color: #195640;
+  text-align: right;
+  padding: 10px;
+}
+
+.site-footer {
+  background-image: linear-gradient(rgb(115, 118, 116), white);
+  padding: 20px;
+  align-items: center;
+}
+
+.site-header {
+  margin: 10px;
+  text-align: center;
+}
+
+.jumbotron {
+  margin: 0;
+  padding: 30px;
+  background-image: linear-gradient(to right, #195640, #28672f, #218e32);
+  color: white;
+}
+
+.jumbotron h2 {
+  color: #CEC8FF;
+}
+
+.navbar-dark {
+  background-color: #195640;
+  color: white;
+}
+
+.navbar-button {
+  position: absolute;
+  top: 10;
+  right: 0;
+  margin-top: center;
+  margin-right: 20px;
+  background-color: rgb(79, 61, 61);
+  color: white;
+}
+
+.nav-link{
+  color:white;
+  margin: 1;
+  display: flex;
+}
+
+.navbar {
+  text-align:center;
+  margin-bottom: 20px;
+  position:static;
+}
+
+.logo-img {
+  max-width: 800%;
+  height: 150px;
+  border-radius: 8px;
+  padding: 5px;
+  
+}
+
+.img {
+  max-height: 100px;
+  border-radius: 8px;
+  padding: 5px;
+  border: 3px;
+  position: relative;
+  overflow: hidden;
+}
+
+.carousel-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.carousel-wrapper {
+  display: flex;
+  width: 100%;
+  position: relative;
+}
+
+.carousel-content-wrapper {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-content {
+  display: flex;
+  transition: all 250ms linear;
+  -ms-overflow-style: none;  /* hide scrollbar in IE and Edge */
+  scrollbar-width: none;  /* hide scrollbar in Firefox */
+}
+
+/* hide scrollbar in webkit browser */
+.carousel-content::-webkit-scrollbar, .carousel-content::-webkit-scrollbar {
+  display: none;
+}
+
+.carousel-content > * {
+  width: 100%;
+  flex-shrink: 0;
+  flex-grow: 1;
+}
+
+.list-unstyled {
+  color:seagreen;
+  margin: 0;
+  padding: 0;
+}
