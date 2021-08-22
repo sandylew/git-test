@@ -23,8 +23,8 @@ function Footer(props) {
                     <div className="list-unstyled text-center">
                         <li><Link to='/home'>Home</Link></li>
                         <li><Link to='/shop'>Shop</Link></li>
-                        <li><Link to='/aboutus'>About</Link></li>
-                        <li><Link to='/contactus'>Contact</Link></li>
+                        <li><Link to='/about'>About</Link></li>
+                        <li><Link to='/contact'>Contact</Link></li>
                     </div>
                 </div>
             </div>

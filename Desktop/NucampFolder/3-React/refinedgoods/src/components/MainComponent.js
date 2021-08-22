@@ -28,7 +28,9 @@ class Main extends Component {
 
         const HomePage = () => {
             return (
-                <Shop />
+                <Home 
+                availableitem={this.state.availableitems.filter(availableitem => availableitem.featured) [0]}
+                />
             );
         };
 
@@ -38,7 +40,7 @@ class Main extends Component {
                 <Switch>
                     <Route path='/home' component={HomePage} />
                     <Route exact path='/shop' render={() => <Shop availableitems={this.state.availableitems}/>} />
-                    <Route path='/contact' component={Contact} />
+                    <Route exact path='/contact' component={Contact} />
                     <Route path='/about' component={About}/>
                     <Redirect to='/home' />
 

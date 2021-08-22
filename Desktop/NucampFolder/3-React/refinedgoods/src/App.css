@@ -20,6 +20,9 @@ body {
 
 h1, h2, h3, .card-body> .card-title {
   font-family: "Lily-Script-One";
+  display: inline-block;
+  text-align:center;
+ 
 }
 
 .card-title {
@@ -66,6 +69,13 @@ h2 {
 
 }
   
+.homepg-img {
+  color: #195640;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .row-content {
   padding: 3px 0;
   margin: 10px 0;
